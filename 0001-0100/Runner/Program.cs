@@ -1,4 +1,4 @@
-﻿using P0003;
+﻿using P0007;
 
 namespace Runner
 {
@@ -23,9 +23,10 @@ namespace Runner
 
         static void Main(string[] args)
         {
-            var str = "test";
             var sln = new Solution();
-            sln.LengthOfLongestSubstring(str);
+
+
+            var result = sln.Reverse(-0);
         }
     }
 }
